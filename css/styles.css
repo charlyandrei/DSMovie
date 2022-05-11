@@ -5,8 +5,8 @@
     --text-gray: #4a4a4a; 
     --color-primary: #4D41C0;
     --white: #fff;
-    --text-light-gray: #aaa
-    --star-yellow: #ffbb3a
+    --text-light-gray: #aaa;
+    --star-yellow: #ffbb3a;
 
 }
 
@@ -67,7 +67,7 @@ a a:hover {
 }
 
 #dsmovie-card-list {
-    padding: 40px 0;
+    padding: 40px 10;
 
 
 }
@@ -90,17 +90,17 @@ a a:hover {
     align-items: center;
     justify-content: space-between;
     border-radius: 0 0 8px 8px;
-    height: 220px;
+    height: 190px;
 } 
 
 .dsmovie-card-description h3 {
     font-size: 14px;
     font-weight: 700;
-    margin-bottom: 25px;
+    margin-bottom: 10px;
     text-align: center;
 }
 
-.dsmovie-card-descript-bottom {
+.dsmovie-card-description-bottom {
     display: flex;
     flex-direction: column;
     align-items: center;
@@ -117,7 +117,7 @@ a a:hover {
 
 }
 
-.dsmovie-card-descript-bottom p {
+.dsmovie-card-description-bottom p {
     font-size: 12px;
     font-weight: 400;
     color: var(--text-light-gray);
